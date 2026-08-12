@@ -1,6 +1,8 @@
 import React from "react";
 import { FaShoppingCart } from "react-icons/fa";
-import heroImage from "../assets/hero.png";
+import heroImage from "../assets/hero1.png";
+import logoImage from "../assets/logo.png";
+
 
 const Hero = () => {
   return (
@@ -17,7 +19,11 @@ const Hero = () => {
       <nav className="absolute left-1/2 top-[clamp(18px,2vw,28px)] z-20 flex h-[clamp(38px,3vw,46px)] w-[calc(100%-clamp(32px,8vw,110px))] max-w-[1180px] -translate-x-1/2 items-center justify-between rounded-[10px] border border-white/30 bg-white/10 px-[clamp(10px,1vw,16px)] backdrop-blur-[8px]">
 
         <div className="flex h-7 w-7 items-center justify-center text-[clamp(17px,1.4vw,21px)] text-white">
-          ✦
+          <img
+                      src={logoImage}
+                      alt="logo"
+                      className="h-full w-full object-cover"
+          />
         </div>
 
         <div className="flex items-center gap-[clamp(12px,1.5vw,24px)] max-[600px]:hidden">
@@ -52,7 +58,7 @@ const Hero = () => {
 
       </nav>
 
-      <h1 className="absolute bottom-[-8%] left-1/2 z-10 -translate-x-1/2 whitespace-nowrap font-['Cormorant_Garamond'] text-[clamp(170px,31vw,520px)] font-medium leading-[0.62] tracking-[-0.085em] text-[#f5f3ed]">
+      <h1 className="absolute bottom-[10%] left-1/2 z-10 -translate-x-1/2 whitespace-nowrap font-['Cormorant_Garamond'] text-[clamp(170px,70vw,520px)] font-medium leading-[0.62] tracking-[-0.085em] text-[#f5f3ed]">
         sage
       </h1>
 
