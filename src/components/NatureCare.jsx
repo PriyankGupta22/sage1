@@ -31,7 +31,7 @@ const NatureCare = () => {
             by nature
           </h2>
 
-          <div className="mt-[clamp(16px,2vw,28px)] max-w-[430px] space-y-[clamp(9px,1vw,14px)] text-[clamp(10px,0.8vw,13px)] leading-[1.35] text-[#555950]">
+          <div className="mt-[clamp(16px,2vw,28px)] max-w-[430px] space-y-[clamp(9px,1vw,14px)] text-[clamp(10px,1.27vw,13px)] leading-[1.35] text-[#555950]">
             <p>
               Thoughtfully crafted formulas designed to bring balance and calm
               to your daily routine.

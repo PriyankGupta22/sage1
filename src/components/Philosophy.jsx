@@ -15,7 +15,7 @@ const Philosophy = () => {
             skin&hair
           </h2>
 
-          <div className="mt-[clamp(18px,2vw,30px)] max-w-[clamp(300px,33vw,500px)] space-y-[clamp(8px,1vw,14px)] text-[clamp(10px,0.78vw,13px)] leading-[1.35] text-[#555950]">
+          <div className="mt-[clamp(18px,2vw,30px)] max-w-[clamp(300px,33vw,500px)] space-y-[clamp(8px,1vw,14px)] text-[clamp(10px,1vw,13px)] leading-[1.35] text-[#555950]">
             <p>
               Sage is about conscious simplicity — effective formulas,
               thoughtful ingredients, and soft textures designed for real
