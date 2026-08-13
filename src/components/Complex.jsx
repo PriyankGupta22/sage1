@@ -7,7 +7,7 @@ const Complex = () => {
     <section className="relative w-full overflow-hidden bg-[#f1f1ed] px-[clamp(18px,6vw,90px)] py-[clamp(40px,6vw,90px)]">
       <div className="relative mx-auto min-h-[clamp(520px,58vw,850px)] w-full max-w-[1500px]">
 
-        <div className="pointer-events-none absolute left-[-2%] top-[clamp(90px,11vw,170px)] z-0 select-none font-['Cormorant_Garamond'] text-[clamp(210px,63vw,500px)] font-medium leading-[0.55] tracking-[-0.08em] text-[#adb4a4]">
+        <div className="pointer-events-none absolute left-[-2%] top-[clamp(90px,11vw,170px)] z-0 select-none font-['Cormorant_Garamond'] text-[clamp(210px,63vw,500px)] lg:text-[65vw] lg:ml-[-20px] font-medium leading-[0.55] tracking-[-0.08em] text-[#adb4a4]">
           new
         </div>
 
@@ -20,7 +20,7 @@ const Complex = () => {
               Skincare Complex
             </h2>
 
-            <p className="mt-[clamp(14px,1.5vw,24px)] max-w-[clamp(260px,29vw,430px)] text-[clamp(10px,0.8vw,13px)] leading-[1.3] text-[#555950]">
+            <p className="mt-[clamp(14px,1.5vw,24px)] max-w-[clamp(260px,29vw,430px)] text-[clamp(10px,0.8vw,13px)] lg:text-[1.4vw] leading-[1.3] text-[#555950]">
               Multifunctional line designed to simplify your daily routine
               without compromising results.
             </p>
@@ -47,14 +47,14 @@ const Complex = () => {
           </div>
 
           <div className="w-[31%] pb-[clamp(5px,1vw,15px)] max-[700px]:w-full">
-            <p className="max-w-[clamp(280px,31vw,440px)] text-[clamp(10px,0.8vw,13px)] leading-[1.35] text-[#555950]">
+            <p className="max-w-[clamp(280px,31vw,440px)] lg:w-[500px] lg:ml-[-100px] text-[clamp(10px,0.8vw,13px)] lg:text-[1.4vw] leading-[1.35] text-[#555950]">
               Each formula combines hydration, barrier support, and
               skin-balancing ingredients to work in one effortless step.
               The collection focuses on smart minimalism — fewer products,
               more impact, and consistent care for healthy-looking skin.
             </p>
 
-            <button className="mt-[clamp(16px,2vw,28px)] rounded-full border border-[#9ca096] px-[clamp(20px,2vw,30px)] py-[clamp(7px,0.7vw,10px)] text-[clamp(10px,0.7vw,12px)] text-[#555950] transition-all duration-300 hover:bg-[#3e4938] hover:text-white">
+            <button className="mt-[clamp(16px,2vw,28px)] rounded-full border lg:ml-[-100px] border-[#9ca096] px-[clamp(20px,2vw,30px)] py-[clamp(7px,0.7vw,10px)] text-[clamp(10px,0.7vw,12px)] text-[#555950] transition-all duration-300 hover:bg-[#3e4938] hover:text-white">
               Catalog
             </button>
           </div>

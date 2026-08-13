@@ -7,7 +7,7 @@ const Philosophy = () => {
       <div className="mx-auto flex w-full max-w-[1500px] items-center justify-between gap-[clamp(30px,6vw,110px)] max-[700px]:flex-col max-[700px]:items-start">
 
         <div className="w-[46%] max-[700px]:w-full">
-          <h2 className="max-w-[clamp(300px,32vw,520px)] text-[clamp(30px,3.2vw,52px)] font-medium leading-[0.88] tracking-[-0.045em] text-[#3e4938]">
+          <h2 className="max-w-[clamp(300px,42vw,520px)] text-[4vw] font-medium leading-[0.88] tracking-[-0.045em] text-[#3e4938]">
             New philosophy
             <br />
             of selfcare: healthy
@@ -15,7 +15,7 @@ const Philosophy = () => {
             skin&hair
           </h2>
 
-          <div className="mt-[clamp(18px,2vw,30px)] max-w-[clamp(300px,33vw,500px)] space-y-[clamp(8px,1vw,14px)] text-[clamp(10px,1vw,13px)] leading-[1.35] text-[#555950]">
+          <div className="mt-[clamp(18px,2vw,30px)] max-w-[clamp(300px,33vw,500px)] space-y-[clamp(8px,1vw,14px)] text-[clamp(10px,1vw,13px)] lg:text-[1.2vw] leading-[1.35] text-[#555950]">
             <p>
               Sage is about conscious simplicity — effective formulas,
               thoughtful ingredients, and soft textures designed for real
