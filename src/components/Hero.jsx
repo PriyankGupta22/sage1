@@ -58,7 +58,7 @@ const Hero = () => {
 
       </nav>
 
-      <h1 className="absolute bottom-[10%] left-1/2 z-10 -translate-x-1/2 whitespace-nowrap font-['Cormorant_Garamond'] text-[clamp(170px,70vw,520px)] font-medium leading-[0.62] tracking-[-0.085em] text-[#f5f3ed]">
+      <h1 className="absolute bottom-[10%] left-1/2 z-10 -translate-x-1/2 whitespace-nowrap font-['Cormorant_Garamond'] text-[clamp(170px,77vw,520px)] font-medium leading-[0.62] tracking-[-0.085em] text-[#f5f3ed]">
         sage
       </h1>
 
